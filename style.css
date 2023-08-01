@@ -1,0 +1,117 @@
+body{
+    background-color: #18191a ;
+    padding: 40px 100px
+}
+
+.topPage input{
+    border: 2px solid GRAY;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 230px;
+    font-size:larger ;    
+}
+
+.b1{
+    height: 40px;
+    width: 170px;
+    border-radius: 25px;
+    background-color: aqua;
+    color: black;
+    font-size: larger;
+}
+
+.b2{
+    height: 40px;
+    width: 170px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+}
+
+.topPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 420px;
+}
+
+.img1{
+    width: 1500px;
+}
+
+.topp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.autobiography p{
+    width: 800px;
+    border: solid 1px black;
+    background-color: red;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    padding: 40px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.autobiography{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inLine p{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    width: 220px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.inLine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    height: 500px;
+    background-color: red;
+}
+
+.foot{
+    margin-top: 100px;
+}
+
+.foot footer ol{
+    color: white;
+    line-height: 1.8;
+
+}
+
+
+.foot footer ol h1{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot footer ol input{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
